@@ -40,7 +40,6 @@ ul :hover li a {
     opacity: 1;
     filter: blur(0);
 
-
 }
 
 ul li a:before {
@@ -50,7 +49,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ff497c;
+    background: #d549ff;
     transition: 0.5s;
     transform-origin: right;
     transform: scaleX(0);

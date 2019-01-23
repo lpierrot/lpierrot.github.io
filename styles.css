@@ -49,7 +49,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #d549ff;
+    background: #a879bbe7;
     transition: 0.5s;
     transform-origin: right;
     transform: scaleX(0);

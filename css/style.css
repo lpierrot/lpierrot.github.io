@@ -1,26 +1,36 @@
-html {
+/* html {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
-}
-#intro {
-    height: 500px;
-    background-image: url('../Img/header.png');
+} */
+body {
+    background-image: url(../Img/bk3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 0;
+    margin: 0;
     z-index: -1;
 }
-.intro1 {
-    margin-top: 100px;
+.section1 {
+    min-height: 100vh;
+    
 }
-#about {
-    margin: 90px;
+.headerintro {
+    text-align: center;
+    margin: 0px;
     padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
 }
+
 #about img {
     margin-top: 20px;
     margin-bottom: 20px
 }
 .section2 {
-    margin: 90px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
 }

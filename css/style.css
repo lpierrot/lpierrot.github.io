@@ -2,17 +2,14 @@
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
 } */
 body {
-    background-image: url(../Img/bk3.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 0;
-    margin: 0;
-    z-index: -1;
+   background-color: #00838f;
+}
+.side-nav li>a {
+    color: #ffffff;
 }
 .section1 {
-    min-height: 100vh;
+    min-height: 84vh;
+    color: #ffffff;
     
 }
 .headerintro {

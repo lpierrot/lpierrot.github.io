@@ -4,16 +4,7 @@ body {
   scroll-behavior: smooth;
   background-color: #000000;
 }
-.section1 {
-  height: 85vh;
-  min-height: 50px;
-  padding-top: 200px;
-}
-.section1 img {
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
-}
+/* header starts here */
 .logo {
   font-weight: 300;
   padding-right: 10px;
@@ -21,45 +12,36 @@ body {
 .side-nav li > a {
   color: #ffffff;
 }
-
-.section2 {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 80px;
-  margin-left: 80px;
+.section-1 {
+  height: 95vh;
+  padding-top: 130px;
 }
-.section3 {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 80px;
-  margin-left: 80px;
+.section-1 img {
+  image-rendering: auto, -moz-crisp-edges, pixelated;
 }
-.section4 {
-  margin-top: 100px;
-  margin: 0;
+/* About page */
+.section-2 {
+  height: 100vh;
+  padding-top: 60px;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+/* Projects */
+.section-3 {
+  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  line-height: 3em;
+}
+/* contact */
+.section-4 {
+  height: 60vh;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  line-height: 3em;
+  font-size: 1.2em;
+}
+/* Footer */
+.section-5 {
   padding: 20px;
-}
-.material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px; /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: auto;
-
-  /* Support for IE. */
-  font-feature-settings: "liga";
 }

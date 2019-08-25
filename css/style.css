@@ -1,4 +1,4 @@
-html,
+
 body {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
   scroll-behavior: smooth;
@@ -14,7 +14,7 @@ body {
 }
 .section-1 {
   height: 95vh;
-  padding-top: 130px;
+  padding-top: 250px;
 }
 .section-1 img {
   image-rendering: auto, -moz-crisp-edges, pixelated;
@@ -30,7 +30,6 @@ body {
 }
 /* Projects */
 .section-3 {
-  height: 100vh;
   padding-top: 60px;
   padding-bottom: 100px;
   line-height: 3em;
@@ -38,8 +37,7 @@ body {
 /* contact */
 .section-4 {
   height: 60vh;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 70px;
   line-height: 3em;
   font-size: 1.2em;
 }

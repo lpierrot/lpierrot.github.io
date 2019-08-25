@@ -12,6 +12,9 @@ body {
 .side-nav li > a {
   color: #ffffff;
 }
+h5.header {
+  text-transform: uppercase;
+}
 .section-1 {
   height: 95vh;
   padding-top: 250px;
@@ -45,3 +48,4 @@ body {
 .section-5 {
   padding: 20px;
 }
+

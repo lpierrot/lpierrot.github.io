@@ -18,8 +18,8 @@ h5.header {
 }
 /* Intro section */
 .section-1 {
-  height: 100vh;
-  padding-top: 180px;
+  height: 98vh;
+  padding-top: 120px;
 }
 .section-1 img {
   image-rendering: auto, -moz-crisp-edges, pixelated;
@@ -49,4 +49,28 @@ h5.header {
 /* Footer */
 .section-5 {
   padding: 15px;
+}
+.material-icons {
+ font-family: "Material Icons";
+ font-weight: normal;
+ font-style: normal;
+ font-size: 24px; /* Preferred icon size */
+ display: inline-block;
+ line-height: 1;
+ text-transform: none;
+ letter-spacing: normal;
+ word-wrap: normal;
+ white-space: nowrap;
+ direction: ltr;
+ 
+ /* Support for all WebKit browsers. */
+ -webkit-font-smoothing: antialiased;
+ /* Support for Safari and Chrome. */
+ text-rendering: optimizeLegibility;
+ 
+ /* Support for Firefox. */
+ -moz-osx-font-smoothing: auto;
+ 
+ /* Support for IE. */
+ font-feature-settings: "liga";
 }

@@ -1,9 +1,7 @@
-
-html 
-body {
+html body {
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
-  font-size: 1.2em; 
+  font-size: 1.2em;
   /* background-color: #000000; */
 }
 /* header starts here */
@@ -47,7 +45,6 @@ body {
 .section-4 {
   padding-top: 100px;
   line-height: 3em;
-  
 }
 /* Footer */
 .section-5 {

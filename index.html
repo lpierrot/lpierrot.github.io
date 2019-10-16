@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Lionel Pierrot Portfolio">
-    <meta name="keywords" content="Portfolio, Junior Front-End Web Developer, HTML5, CSS3, JavaScript, Bootstrap,
-        Vue, Projects, Github">
+    <meta name="keywords" content="Portfolio of Lionel Pierrot, Junior Front-End Web Developer, Web Developer">
     <meta name="author" content="Lionel Pierrot">
     <title>Lionel Pierrot | Portfolio</title>
     <!--Let browser know website is optimized for mobile-->
@@ -14,16 +13,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <!--Fonts-->
     <script src="https://kit.fontawesome.com/0473a41e6f.js"></script>
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
     <!--Main CSS-->
     <link rel="stylesheet" href="css/style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146881035-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146881035-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -33,350 +30,183 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-146881035-1');
-    </script>
+    </script> -->
 
 </head>
 
 <body>
     <!--Nav starts here-->
-    <header class="mainheader">
-        <nav class="black">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#home" class="brand-logo"><span class="logo white-text">LP</span></a>
-                    <a href="#" class="button-collapse" data-activates="mobile-nav">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li>
-                            <a href="#about" class="white-text">About</a>
-                        </li>
-                        <li>
-                            <a href="#projects" class="white-text">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="white-text">Contact</a>
-                        </li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-nav">
-                        <h4 class="center-align">LP</h4>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <header>
+        <nav>
+            <ul class="topnav">
+                <li class="logo"><a href="#home">Lionel Pierrot</a></li>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <!--Intro page-->
-    <section class="section-1 container">
-        <div class="row">
-            <div class="col col s12 m12 main-text center-align">
-                <img src="Img/profile.jpeg" alt="This is a photo profile of Lionel Pierrot"
-                    class="circle responsive-img">
-                <h3 class="white-text">Lionel Pierrot</h3>
-                <p flow-text><span class="white-text">Front-End Web Developer</span></p>
-                <a href="#about" class="btn btn-medium white black-text">More about me</a>
-            </div>
+    <!--Landing page-->
+    <section id="home">
+        <div class="primary">
+            <h1>Lionel Pierrot</h1>
+            <p class="landing">Front-End Web Developer</p>
         </div>
     </section>
+
     <!--About page-->
-    <section id="about" class="grey lighten-2">
-        <div class="section-2 container">
-            <div class="row">
-                <div class="col s12 m12 l12">
-                    <h5 class="header center">About</h5>
-                    <p flow-text>My name is Lionel Pierrot and I am currently based in Seattle. I am a
-                        determined, detail oriented, self-driven Junior Front-End Web Developer who is passionate about
-                        social good,learning new technologies and techniques. I seek new opportunities and challenges
-                        that will allow me to apply my skill to design
-                        innovative products and experiences that are meaningful and impactful to people's lives.
-                    </p>
-                </div>
-                <div class="skills center-align">
-                    <h5>Skills</h5>
-                    <p>
-                        <a class="waves-effect waves-light btn-large">
-                            <i class="fab fa-bootstrap">Bootstrap</i></a>
-                        <a class="waves-effect waves-light btn-large">
-                            <i class="fab fa-css3-alt">CSS</i></a>
-                        <a class="waves-effect waves-light btn-large">
-                            <i class="fab fa-html5">HTML5</i></a>
-                        <a class="waves-effect waves-light btn-large">
-                            <i class="fab fa-js">JavaScript</i></a>
-                        <a class="waves-effect waves-light btn-large">
-                            <i class="fab fa-vuejs">Vuejs</i></a>
-                    </p>
-                </div>
-            </div>
+    <section id="about">
+        <div class="secondary">
+            <h3>About</h3>
+            <figure>
+                <img class="profile-photo" src="images/profile.png" alt="This is a photo profile of Lionel Pierrot">
+            </figure>
+            <p class="intro">My name is Lionel Pierrot and I am currently based in Seattle. I am a Junior Front-End
+                Web Developer with a passion and deep appreciation for front-end development, UI/UX, responsive
+                design, and SEO optimization best practices. I have four years of experience as a Consumer Tech
+                Support in the video game industry, am fluent in five languages, and have superior interpersonal
+                communication skills.</p>
+            <p class="intro"> I am always eager to learn new technologies and enjoy resolving complex technical
+                issues. I have experience in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>Bootstrap</b>, <b>Vue
+                    JS</b>, <b>WordPress</b>, and
+                <b>Git/Github</b>. I’ve
+                started
+                learning React, Node.JS, MongoDB, and Express JS with the ultimate goal of becoming a Full-Stack
+                Developer.
+            </p>
         </div>
     </section>
 
-    <!---projects-->
-    <section class="section-3  brown lighten-4" id="projects">
+    <!--projects-->
+    <section id="projects">
         <div class="container">
-            <h5 class="header center">Projects </h5>
-            <div class="row ">
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="Img/civicapp.png" alt="image of project one">
-                        </div>
-                        <div class="card-content z-depth-5">
-                            <span class="card-title activator black-text">Capstone Project <i
-                                    class="mdi-navigation-more-vert right"></i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title black-text">Civic app <i
-                                    class="mdi-navigation-close right"></i></span>
-                            <p>Built using Vuejs. Built an designed to look up local officials by zipcode.
-                            </p>
-                            <p><a class="black-text btn teal lighten-2"
-                                    href="https://github.com/lpierrot/Civiv-App">Github</a></p>
-                            <p><a class="black-text btn teal lighten-2"
-                                    href="https://www.lionelpierrot.com/Civiv-App/#/">Project</a></p>
-                        </div>
+            <div class="box">
+                <div class="imgbx">
+                    <div>
+                        <img src="images/profile.png" style="width: 200px; height: 150px;">
                     </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="Img/header.png" alt="image of project two">
-                        </div>
-                        <div class="card-content z-depth-5">
-                            <span class="card-title activator black-text">Project 2 Title <i
-                                    class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text" href="#">Project 2 link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title black-text">Project 2 Title <i
-                                    class="mdi-navigation-close right"></i></span>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, inventore?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="Img/header.png" alt="image of project three">
-                        </div>
-                        <div class="card-content z-depth-5">
-                            <span class="card-title activator black-text">Project 3 Title <i
-                                    class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text" href="#">Project 3 link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title black-text ">Project 3 Title <i
-                                    class="mdi-navigation-close right"></i></span>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, inventore?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="Img/header.png" alt="image of project four">
-                        </div>
-                        <div class="card-content z-depth-5">
-                            <span class="card-title activator black-text">Project 4 Title <i
-                                    class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text" href="#">Project 4 link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title back-text">Project 4 Title <i
-                                    class="mdi-navigation-close right"></i></span>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, inventore?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="Img/header.png" alt="image of project five">
-                        </div>
-                        <div class="card-content z-depth-5">
-                            <span class="card-title activator back-text">Project 5 Title <i
-                                    class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text" href=" #">Project 5 link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title back-text">Project 5 Title <i
-                                    class="mdi-navigation-close right"></i></span>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, inventore?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla.
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="Img/header.png" alt="image of project six">
-                        </div>
-                        <div class="card-content z-depth-5">
-                            <span class="card-title activator back-text">Project 6 Title <i
-                                    class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text" href="#">Project 6 link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title back-text">Project 6 Title <i
-                                    class="mdi-navigation-close right"></i></span>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, inventore?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla.
-                            </p>
-                        </div>
+                    <div class="content">
+                        <h2>Civic App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos sint, ipsa
+                            nesciunt nihil non quam at quas sed consequuntur in autem aliquam quae tenetur deserunt
+                            delectus, impedit officiis adipisci?</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Modal Structure 
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <h4>Fizz Buzz</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione aspernatur natus
-                dicta quisquam perspiciatis modi aut perferendis nam cumque!
-            </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Github Code</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Project link</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-    </div>
-    <div id="modal2" class="modal">
-        <div class="modal-content">
-            <h4>Fizz Buzz</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione aspernatur natus
-                dicta quisquam perspiciatis modi aut perferendis nam cumque!
-            </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Github Code</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Project link</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-    </div>
-    <div id="modal3" class="modal">
-        <div class="modal-content">
-            <h4>Fizz Buzz</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione aspernatur natus
-                dicta quisquam perspiciatis modi aut perferendis nam cumque!
-            </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Github Code</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Project link</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-    </div>
-    <div id="modal4" class="modal">
-        <div class="modal-content">
-            <h4>Fizz Buzz</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione aspernatur natus
-                dicta quisquam perspiciatis modi aut perferendis nam cumque!
-            </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Github Code</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Project link</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-    </div>
-    <div id="modal5" class="modal">
-        <div class="modal-content">
-            <h4>Fizz Buzz</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione aspernatur natus
-                dicta quisquam perspiciatis modi aut perferendis nam cumque!
-            </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Github Code</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Project link</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-    </div>
-    <div id="modal6" class="modal">
-        <div class="modal-content">
-            <h4>Fizz Buzz</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione aspernatur natus
-                dicta quisquam perspiciatis modi aut perferendis nam cumque!
-            </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Github Code</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Project link</a>
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        </div>
-    </div>-->
-    <!--Conatct page-->
-    <section class="section-4  grey darken-1" id="contact">
+    <section id="projects">
         <div class="container">
-            <div class="row">
-                <div class="col s12 m12 l6">
-                    <h5 class="header white-text">Contact me</h5>
-                    <p class="grey-text text-lighten-4">Let's collaborate!</p>
-                    <a href="mailto:liopierrot@gmail.com" target="_blank">
-                        <img src="Img/email-icon-1.png" alt="This is an image envelop"></a>
+            <div class="box">
+                <div class="imgbx">
+                    <div>
+                        <img src="images/profile.png" style="width: 200px; height: 150px;">
+                    </div>
+                    <div class="content">
+                        <h2>Civic App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos sint, ipsa
+                            nesciunt nihil non quam at quas sed consequuntur in autem aliquam quae tenetur deserunt
+                            delectus, impedit officiis adipisci?</p>
+                    </div>
                 </div>
-                <div class="col s12 l4 offset-l2">
-                    <h5 class="header white-text">Social Media</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/lionel-pierrot/"
-                                target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://github.com/lpierrot" target="_blank"><i
-                                    class="fab fa-github fa-2x"></i></a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.reddit.com/user/Lio_p/" target="
-                                _blank"><i class="fab fa-reddit fa-2x"></i></a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://stackoverflow.com/users/11815497/lio"
-                                target="_blank"><i class="fab fa-stack-overflow fa-2x"></i></a></li>
-                    </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="box">
+                <div class="imgbx">
+                    <div>
+                        <img src="images/profile.png" style="width: 200px; height: 150px;">
+                    </div>
+                    <div class="content">
+                        <h2>Civic App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos sint, ipsa
+                            nesciunt nihil non quam at quas sed consequuntur in autem aliquam quae tenetur deserunt
+                            delectus, impedit officiis adipisci?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="box">
+                <div class="imgbx">
+                    <div>
+                        <img src="images/profile.png" style="width: 200px; height: 150px;">
+                    </div>
+                    <div class="content">
+                        <h2>Civic App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos sint, ipsa
+                            nesciunt nihil non quam at quas sed consequuntur in autem aliquam quae tenetur deserunt
+                            delectus, impedit officiis adipisci?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="box">
+                <div class="imgbx">
+                    <div>
+                        <img src="images/profile.png" style="width: 200px; height: 150px;">
+                    </div>
+                    <div class="content">
+                        <h2>Civic App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos sint, ipsa
+                            nesciunt nihil non quam at quas sed consequuntur in autem aliquam quae tenetur deserunt
+                            delectus, impedit officiis adipisci?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="box">
+                <div class="imgbx">
+                    <div>
+                        <img src="images/profile.png" style="width: 200px; height: 150px;">
+                    </div>
+                    <div class="content">
+                        <h2>Civic App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos sint, ipsa
+                            nesciunt nihil non quam at quas sed consequuntur in autem aliquam quae tenetur deserunt
+                            delectus, impedit officiis adipisci?</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Aside fixed button -->
-    <aside class="fixed-action-btn vertical">
-        <a class="btn-floating btn-large  blue-grey darken-4">
-            <i class="fa fa-globe"></i>
-        </a>
-        <ul>
-            <li><a class="btn-floating orange lighten-2" href="https://stackoverflow.com/users/11815497/lio"
-                    target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-            <li><a class="btn-floating orange lighten-1" href="https://www.reddit.com/user/Lio_p/" target="
-                                _blank"><i class="fab fa-reddit orange"></i></a></li>
-            <li><a class="btn-floating grey darken-3" href="https://github.com/lpierrot" target="_blank"> <i
-                        class="fab fa-github"></i></a></li>
-            <li><a class="btn-floating blue darken-3" href="https://www.linkedin.com/in/lionel-pierrot/"
-                    target="_blank"><i class=" fab fa-linkedin"></i></a></li>
-        </ul>
+    <!--Social media and contact-->
+    <aside>
+        <div class="icon-bar">
+            <a href="https://github.com/lpierrot" target="_blank" class="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.reddit.com/user/Lio_p/" target="_blank" class="reddit"><i
+                    class="fab fa-reddit"></i></a>
+            <a href="https://www.linkedin.com/in/lionel-pierrot/" target="_blank" class="linkedin"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://stackoverflow.com/users/11815497/lio" target="_blank" class="stackoverflow"><i
+                    class="fab fa-stack-overflow"></i></a>
+            <a href="mailto:liopierrot@gmail.com" target="_blank" class="email">
+                <i class="far fa-envelope-open"></i></i>
+            </a>
+        </div>
     </aside>
 
     <!--footer-->
-    <footer class="section-5 page-footer black">
-        <div class="container center-align">
-            Copyright &#169; Lionel Pierrot 2019
-        </div>
-    </footer>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <!--Custom JS &jQuery-->
+    <section class="footer">
+        <footer>
+            <p>All Rights Reserved &#169; Lionel Pierrot 2019</p>
+        </footer>
+    </section>
+
+    <!--Main JS-->
     <script src="js/main.js"></script>
 </body>
 

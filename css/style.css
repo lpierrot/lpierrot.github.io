@@ -78,7 +78,7 @@ a {
 }
 /*main content*/
 .content {
-   display: flex;
+  display: flex;
 }
 /* About section */
 .primary {
@@ -95,10 +95,8 @@ a {
   text-align: justify;
   text-indent: 20px;
   font-weight: normal;
-  
 }
 /* Projects */
-
 
 /* social media and contact*/
 .icon-bar {
@@ -107,7 +105,7 @@ a {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-} 
+}
 .icon-bar a {
   display: block;
   text-align: center;
@@ -165,7 +163,6 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
   }
 }
 @media only screen and (min-width: 992px) {
@@ -174,7 +171,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+  }
 }
 @media only screen and (min-width: 1200px) {
   .nav,

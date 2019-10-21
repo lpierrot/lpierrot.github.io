@@ -36,20 +36,22 @@
 
 <body>
     <!--Nav starts here-->
-    <nav class="nav">
-        <h1 class="logo"><a href="#">Lionel Pierrot</a></h1>
+    <nav aria-labelledby="mainmenulabel" class="nav">
+        <h1 id="mainmenulabel" class="visuallyhidden logo"><a href="#">Lionel Pierrot</a></h1>
         <ul class="main-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#home" aria-current="page">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
     <!--Landing page-->
-
+ 
     <section id="home">
         <div class="welcome">
+            <img src="images/profile.png" srcset='images/profile.png 1x,
+                images/profile.png 2x' style='max-width: 500px' alt="">
             <h1>Lionel Pierrot</h1>
             <p>This website is still in production. Will be fully functional soon. Thank you for visiting!</p>
             <!-- <p>Front-End Web Developer</p> -->
@@ -57,7 +59,7 @@
     </section>
 
     <!--About page-->
-    <main class="content">
+   <main class="content">
         <section id="about">
             <div class="primary">
                 <h3>About</h3>
@@ -66,12 +68,10 @@
                     design, and SEO optimization best practices. I have four years of experience as a Consumer Tech
                     Support in the video game industry, am fluent in five languages, and have superior interpersonal
                     communication skills.</p>
-                <p> I am always eager to learn new technologies and enjoy resolving complex technical
-                    issues. I have experience in HTML, CSS, JavaScript, Bootstrap,Vue JS, WordPress, and Git/Github.
-                    I’ve
-                    started learning React, Node.JS, MongoDB, and Express JS with the ultimate goal of becoming a
-                    Full-Stack
-                    Developer.
+                    <p>I am always eager to learn new technologies and enjoy resolving complex technical
+                    issues. I have experience in HTML, CSS, JavaScript, Bootstrap, Vue JS, WordPress, and Git/Github.
+                    I’ve started learning React, Node.JS, MongoDB, and Express JS with the ultimate goal of becoming a
+                    Full-Stack Developer.
                 </p>
             </div>
         </section>

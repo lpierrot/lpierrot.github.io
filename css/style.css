@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -29,6 +31,7 @@ a {
 
 .main-nav {
   margin-top: 5px;
+  
 }
 .logo a,
 .main-nav a {
@@ -43,6 +46,10 @@ a {
 }
 .main-nav a:hover {
   color: #718daa;
+}
+nav [aria-current=page] {
+	background-color: #bbb;
+  color: #000;
 }
 .nav {
   padding-top: 0.5em;
@@ -59,18 +66,20 @@ a {
 
 /* Intro section */
 .welcome {
-  background: wheat;
-  padding: 250px;
+  background: whitesmoke;
+  padding: 150px;
   min-height: 100vh;
+  width: 100%;
   text-align: center;
-  line-height: 2.5em;
-  width: auto;
+  justify-content: inherit;
+  align-items: inherit;
 }
 .welcome p {
+  margin: 20px;
   letter-spacing: 0.2em;
   font-weight: 500;
 }
-.welcome h1 h3 {
+.welcome h1 {
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -78,12 +87,13 @@ a {
 }
 /*main content*/
 .content {
-  display: flex;
+  max-width: 960px;
+  margin: auto;
 }
 /* About section */
 .primary {
   min-height: 100vh;
-  padding: 4em;
+  padding: 45px;
   width: 100%;
 }
 .primary h3 {
@@ -91,9 +101,10 @@ a {
   text-transform: uppercase;
 }
 .primary p {
+  padding-top: 15px;
+  margin: 20px;
   line-height: 2em;
   text-align: justify;
-  text-indent: 20px;
   font-weight: normal;
 }
 /* Projects */
@@ -139,7 +150,6 @@ a {
 }
 /* Footer */
 .footer {
-  padding: 10px;
   text-align: center;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -158,14 +168,14 @@ a {
 @media only screen and (max-width: 600px) {
   .nav,
   .main-nav,
-  .welcome {
+  .welcome,
+  .primary {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 960px) {
   .nav,
   .main-nav {
     display: flex;

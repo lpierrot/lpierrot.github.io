@@ -36,44 +36,41 @@ a {
 .logo a,
 .main-nav a {
   padding: 10px 15px;
+  color: #140505fb;
+  font-size: 0.99em;
   text-transform: uppercase;
   text-align: center;
-  display: block;
+  display: flex;
 }
-.main-nav a {
-  color: #34495e;
-  font-size: 0.99em;
-}
+
 .main-nav a:hover {
-  color: #718daa;
+  color: #757677c7;
 }
-nav [aria-current=page] {
+nav li [aria-current=page] {
 	background-color: #bbb;
   color: #000;
 }
 .nav {
+  padding: 50px;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border: 1px solid #a2a2a2;
   background-color: #f4f4f4;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
 /* Intro section */
 .welcome {
-  background: whitesmoke;
-  padding: 150px;
+  display: flex;
+  padding: 250px;
+  flex-direction: column;
+  background: rgb(245, 241, 241);
   min-height: 100vh;
   width: 100%;
   text-align: center;
-  justify-content: inherit;
-  align-items: inherit;
 }
+
 .welcome p {
   margin: 20px;
   letter-spacing: 0.2em;
@@ -92,10 +89,13 @@ nav [aria-current=page] {
 }
 /* About section */
 .primary {
+  display: flex;
+  flex-direction: row;
   min-height: 100vh;
   padding: 45px;
-  width: 100%;
+  
 }
+
 .primary h3 {
   text-align: center;
   text-transform: uppercase;
@@ -107,7 +107,8 @@ nav [aria-current=page] {
   text-align: justify;
   font-weight: normal;
 }
-/* Projects */
+/* Projects*/
+
 
 /* social media and contact*/
 .icon-bar {
@@ -168,8 +169,7 @@ nav [aria-current=page] {
 @media only screen and (max-width: 600px) {
   .nav,
   .main-nav,
-  .welcome,
-  .primary {
+  .welcome {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,11 +183,4 @@ nav [aria-current=page] {
     justify-content: space-between;
   }
 }
-@media only screen and (min-width: 1200px) {
-  .nav,
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
+

@@ -23,18 +23,20 @@ a {
 a {
   text-decoration: none;
 }
-
-.logo {
+/* .header-logo {
+  height: 15px;
+  width: 45px;
+} */
+/* .logo {
   margin: 0;
-  font-size: 1.45em;
-}
-
-.main-nav {
-  margin-top: 5px;
   
-}
-.logo a,
-.main-nav a {
+} */
+
+/* .main-nav {
+  margin-top: 45px;
+} */
+.logo,
+.main-nav li {
   padding: 10px 15px;
   color: #140505fb;
   font-size: 0.99em;
@@ -43,17 +45,26 @@ a {
   display: flex;
 }
 
-.main-nav a:hover {
+/* .main-nav,  {
   color: #757677c7;
+} */
+/* a:visited {
+  font-weight: bold;
+  color: #757677c7;
+} */
+a:hover {
+  color: #007bb5;
 }
-nav li [aria-current=page] {
-	background-color: #bbb;
+nav li [aria-current="page"] {
+  /* border: 1px solid; */
+  /* background-color: #bbb; */
   color: #000;
+  text-decoration: underline;
 }
 .nav {
-  padding: 50px;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  width: 100%;
+  position: fixed;
+  padding: 5px 40px 5px 40px;
   border: 1px solid #a2a2a2;
   background-color: #f4f4f4;
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
@@ -61,7 +72,7 @@ nav li [aria-current=page] {
 }
 
 /* Intro section */
-.welcome {
+#home {
   display: flex;
   padding: 250px;
   flex-direction: column;
@@ -70,7 +81,6 @@ nav li [aria-current=page] {
   width: 100%;
   text-align: center;
 }
-
 .welcome p {
   margin: 20px;
   letter-spacing: 0.2em;
@@ -83,32 +93,37 @@ nav li [aria-current=page] {
   font-weight: 900;
 }
 /*main content*/
-.content {
+#about {
   max-width: 960px;
   margin: auto;
+  height: 100vh;
 }
 /* About section */
 .primary {
   display: flex;
   flex-direction: row;
-  min-height: 100vh;
-  padding: 45px;
-  
+
 }
 
-.primary h3 {
+.about-me {
   text-align: center;
   text-transform: uppercase;
 }
 .primary p {
   padding-top: 15px;
   margin: 20px;
-  line-height: 2em;
+  /* line-height: 2em; */
   text-align: justify;
   font-weight: normal;
 }
+.profile-image {
+  width: 250px;
+  height: 250px;
+  /* margin: 100px; */
+  border: 10px solid green;
+  border-radius: 50%;
+}
 /* Projects*/
-
 
 /* social media and contact*/
 .icon-bar {
@@ -150,18 +165,14 @@ nav li [aria-current=page] {
   color: white;
 }
 /* Footer */
-.footer {
+#footer {
   text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 20px 0px 20px 0px;
   border: 1px solid #a2a2a2;
   background-color: #f4f4f4;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
+  
 }
 
 /* Media Queries */
@@ -173,6 +184,10 @@ nav li [aria-current=page] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+  }
+  .icon-bar {
+    visibility: hidden;
   }
 }
 @media only screen and (min-width: 960px) {
@@ -183,4 +198,3 @@ nav li [aria-current=page] {
     justify-content: space-between;
   }
 }
-
